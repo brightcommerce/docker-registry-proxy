@@ -26,7 +26,7 @@ docker run -p 443:443 \
 	--link docker-registry:docker-registry \
 	-v $(pwd)/.htpasswd:/etc/nginx/.htpasswd:ro \
 	-v $(pwd)/certs:/etc/nginx/ssl:ro \
-	containersol/docker-registry-proxy
+	brightcommerce/docker-registry-proxy
 ```
 
 ## Volumes
